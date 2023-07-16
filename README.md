@@ -1,25 +1,8 @@
 # Solar Tracker
 
-Authors: John Culley, Ananth Sanjay, Jeffrey Zhang, Kai Imery
+Author: John Culley
 
 Date: 2023-02-07
-
-### Summary
-
-To tackle the solar tracker as a group we first identified the key components to the design. These components were the voltage reader, the algorithm to maximize the voltage, the servos, and the hardware timer. The next challenge was to identify the flow of the project. The first task was to receive the input voltage, the next task is to find the maximum voltage and the corresponding azmuth and altitude, during that task the servos will be rotated meaning that these functions will be occuring at the same time. The last component is the hardware timer which we set to 20 seconds which will provide enough time to run all of the functions. The task was then divided amongst our team and each member completed a different component. John and Ananth worked on the algorithm to determine which angle would hold the maximum voltage. Kai worked with the servos to make sure that the double servo unit was functioning properly. Jeffrey was in charge of the circuitry, the timer, and the display. At this point, we combined all aspects of our project and began the proper setup. After the integration, the servos weren't working properly as a unit so we had to adapt the code so that the serovs didn't conflict with each other. Also, the wiring for our sensor was inaccurate which was giving improper readings so we checked the wiring and corrected it. Finally, we initially had a timer cycle of ten seconds, but upon testing determined that this was not enough time to properly complete all of the functions so we changed the cycle to twenty seconds which was enough time to do the task accordingly.
-
-### Self-Assessment 
-
-| Objective Criterion | Rating | Max Value  | 
-|---------------------------------------------|:-----------:|:---------:|
-| Objective One | 1 |  1     | 
-| Objective Two | 1 |  1     | 
-| Objective Three | 1 |  1     | 
-| Objective Four | 1 |  1     | 
-| Objective Five | 1 |  1     | 
-| Objective Six | 1 |  1     | 
-
-
 
 ### Solution Design
 
@@ -33,18 +16,8 @@ There are four major components to the code functionality: i2c display, servos, 
 The flowchart shows the algorithm design and project flow through its multiple states and the timer period of 20s.
 </p>
 
-<p align="center">
-<img width="304" alt="image" src="https://user-images.githubusercontent.com/113144839/217410338-880da55b-9dca-422d-8188-46f6157a2b0d.png">
-</p>
-<p align="center">
-Pictures from our design process and demo day!
-</p>
-
-
-
 ### Supporting Artifacts
-- [Link to video technical presentation](https://drive.google.com/file/d/1rsUrqxKzsXTcJ2qmQr8MCVBb2UaERr5l/view?usp=sharing).
-- [Link to video demo](https://drive.google.com/file/d/1Bk7z9dyCVurmIdYeYjn3OUVca8PROR9R/view?usp=sharing).
+- [Project Demonstration](https://drive.google.com/file/d/1Bk7z9dyCVurmIdYeYjn3OUVca8PROR9R/view?usp=sharing).
 
 
 ### Modules, Tools, Source Used Including Attribution
